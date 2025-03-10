@@ -1,0 +1,5 @@
+model_name_or_path: /root/autodl-tmp/LLaMA-Factory/r1-qwen7b
+adapter_name_or_path: /root/autodl-tmp/LLaMA-Factory/saves/r1-7b/checkpoint-500
+template: deepseek3
+infer_backend: huggingface  # choices: [huggingface, vllm]
+trust_remote_code: true
